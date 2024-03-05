@@ -1,0 +1,79 @@
+*{
+          margin: 0;
+          padding: 0;
+          font-family: sans-serif;
+}
+::selection{
+          background-color: #000;
+          color: #fff;
+}
+header{
+          display: flex;
+          padding: 30px;
+}
+header h1{
+          text-transform: capitalize;
+          margin-left: 100px;
+}
+header .a{
+          margin-top: 20px;
+          margin-left: 800px;
+}
+.hide{
+          display: none;
+}
+.show{
+          display: flex;
+}
+nav .a{
+          text-align: center;
+}
+nav .a a{
+          text-transform: capitalize;
+          text-decoration: none;
+          color: #000;
+          margin-left: 20px;
+          font-weight:500;
+          font-size: 30px;    
+}
+header .a a{
+          text-transform: capitalize;
+          text-decoration: none;
+          color: #000;
+          margin-left: 20px;
+          font-weight:500;
+          font-size: 30px;
+}
+header .a a:hover{
+          text-decoration: underline;
+}
+main{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+}
+main aside h1{
+          font-size: 80px;
+}
+main aside p{
+          margin-top: 20px;
+}
+main aside button{
+          border-radius: 20px;
+          padding: 10px;
+          background-color: #000;
+          color: #fff;
+          width: 140px;
+          margin-top: 40px;
+}
+main aside button:hover{
+          background-color:transparent;
+          color: #000;
+          cursor: pointer;
+}
+main aside{
+          margin-top: 200px;
+          margin-left: 300px;
+}
+main .second img{
+          width: 500px;
+}
